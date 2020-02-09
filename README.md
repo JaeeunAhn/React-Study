@@ -2,9 +2,10 @@
 > Results that I studied in React Study
 
 **react-network**
-studied about react network using fetch
-GET/POST/POST IMAGE
-<code>_getFetch = () => {
+>studied about react network using fetch  
+>GET/POST/POST IMAGE
+* sample code for GET
+<pre><code>_getFetch = () => {
     fetch(`https://reactservermo.herokuapp.com/`, {
       method: "GET",
       headers: {
@@ -26,8 +27,9 @@ GET/POST/POST IMAGE
     .catch((err) => {
       console.log(err)
     })
-  }</code>
-
+  }</code></pre>
+  
+  
 **react-socket**
-made a chatting using socketio
-<code>const socket = socketio.connect('https://reactsocketiomo.herokuapp.com/')</code>
+>made a chatting using socketio
+<pre><code>const socket = socketio.connect('https://reactsocketiomo.herokuapp.com/')</code></pre>
