@@ -6,7 +6,7 @@ const Form = ({value, onChange, onCreate, onKeyPress}) => {
         <div className="form">
             <input value={value} onChange={onChange}></input>
             <div className="create-button" onClcik={onCreate}>
-                추가
+                등록
             </div>
          </div>
      );
